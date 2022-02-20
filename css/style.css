@@ -43,3 +43,39 @@ header .social-media {
 .social-media img + img {
   margin-left: 20px;
 }
+
+.apresentacao {
+  background-image: linear-gradient(rgba(0, 0, 0, .9),#000000CC), url(/Assents/faizur-rehman-pHPzdEHN6Os-unsplash\ 1.svg);
+  width: 100%;
+  height: 946px;
+  color: var(--Branco);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.apresentacao .container-p p {
+  font-size: 30px;
+  font-weight: 400;
+  width: 498px;
+  margin-left: 59px;
+}
+
+.apresentacao .container-h1 h1 {
+  font-size: 80px;
+  font-weight: 700;
+  width: 756px;
+  margin-left: 59px;
+}
+
+.apresentacao .container-bt button {
+  background-color: var(--red);
+  color: var(--Branco);
+  width: 290px;
+  height: 60px;
+  border: 1px none;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 40px 0 0 72px;
+}
