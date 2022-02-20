@@ -41,7 +41,7 @@ header .social-media {
 }
 
 .social-media img + img {
-  margin-left: 20px;
+  margin-left: 18px;
 }
 
 .apresentacao {
@@ -78,4 +78,11 @@ header .social-media {
   font-size: 22px;
   font-weight: 400;
   margin: 40px 0 0 72px;
+  cursor: pointer;  
+  transition: 0.9s;
+}
+
+.apresentacao .container-bt button:hover {
+  color: var(--red);
+  background-color: var(--Branco);
 }
