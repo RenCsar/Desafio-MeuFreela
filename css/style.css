@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #EE5253;
+  --Branco: #FFFFFF;
+  --cinza: #EAEAEA;
+  --Background: #E5E5E5;
+  --verde: #10AC84;
+  --place-holder-color: #BBBBBB;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-image: linear-gradient(#EE5253, #D92223);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
