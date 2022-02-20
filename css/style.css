@@ -27,3 +27,19 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
+header .logo p{
+  color: var(--Branco);
+  font-size: 30px;
+  line-height: 35,16px;
+  font-weight: 700;
+  margin-left: 27px;
+}
+
+header .social-media {
+  margin-right: 24px;
+}
+
+.social-media img + img {
+  margin-left: 20px;
+}
