@@ -7,12 +7,12 @@
 }
 
 :root {
-  --red: #EE5253;
-  --Branco: #FFFFFF;
-  --cinza: #EAEAEA;
-  --Background: #E5E5E5;
-  --verde: #10AC84;
-  --place-holder-color: #BBBBBB;
+  --red: #ee5253;
+  --Branco: #ffffff;
+  --cinza: #eaeaea;
+  --Background: #e5e5e5;
+  --verde: #10ac84;
+  --place-holder-color: #bbbbbb;
   --preto: #333333;
   --border-input: #cdcdcd;
 }
@@ -25,16 +25,16 @@ body {
 header {
   height: 80px;
   width: 100%;
-  background-image: linear-gradient(#EE5253, #D92223);
+  background-image: linear-gradient(#ee5253, #d92223);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header .logo p{
+header .logo p {
   color: var(--Branco);
   font-size: 30px;
-  line-height: 35,16px;
+  line-height: 35, 16px;
   font-weight: 700;
   margin-left: 27px;
 }
@@ -48,7 +48,8 @@ header .social-media {
 }
 
 .apresentacao {
-  background-image: linear-gradient(rgba(0, 0, 0, .9),#000000CC), url(/Assents/faizur-rehman-pHPzdEHN6Os-unsplash\ 1.svg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), #000000cc),
+    url(/Assents/faizur-rehman-pHPzdEHN6Os-unsplash\ 1.svg);
   width: 100%;
   height: 946px;
   color: var(--Branco);
@@ -61,11 +62,10 @@ header .social-media {
   font-size: 30px;
   font-weight: 400;
   width: 498px;
-  margin-left: 59px;  
+  margin-left: 59px;
   font-style: normal;
   line-height: 35px;
   letter-spacing: 0em;
-
 }
 
 .apresentacao .container-h1 h1 {
@@ -85,7 +85,7 @@ header .social-media {
   font-size: 22px;
   font-weight: 400;
   margin: 40px 0 0 72px;
-  cursor: pointer;  
+  cursor: pointer;
   transition: 0.9s;
 }
 
@@ -130,13 +130,13 @@ header .social-media {
 }
 
 .retangulo {
-position: absolute;
-width: 100%;
-height: 120px;
-left: 0px;
-top: 1419px;
-background: var(--cinza);
-clip-path: polygon(-80% 100%, 80% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  left: 0px;
+  top: 1419px;
+  background: var(--cinza);
+  clip-path: polygon(-80% 100%, 80% 100%, 100% 100%, 100% 0%);
 }
 
 .contato-container {
@@ -169,7 +169,7 @@ clip-path: polygon(-80% 100%, 80% 100%, 100% 100%, 100% 0%);
 .contato-container .enviar-contato {
   display: flex;
   align-items: center;
-  margin: 37px 0 0px 235px;  
+  margin: 37px 0 0px 235px;
 }
 
 .enviar-contato input {
@@ -189,14 +189,15 @@ clip-path: polygon(-80% 100%, 80% 100%, 100% 100%, 100% 0%);
   height: 21px;
   font-style: normal;
   font-size: 14px;
-  line-height: 21px;  
+  line-height: 21px;
 }
 
-.enviar-contato .input-telefone, .butao-container {
+.enviar-contato .input-telefone,
+.butao-container {
   margin-left: 22px;
 }
 
-.enviar-contato .butao-container button{
+.enviar-contato .butao-container button {
   width: 304px;
   height: 60px;
   background: var(--verde);
@@ -205,7 +206,7 @@ clip-path: polygon(-80% 100%, 80% 100%, 100% 100%, 100% 0%);
   color: var(--Branco);
   font-size: 22px;
   margin-top: 21px;
-  cursor: pointer;    
+  cursor: pointer;
   transition: 0.9s;
 }
 
@@ -226,8 +227,8 @@ footer {
 }
 
 footer .text-footer {
-  Width: 342px;
-  Height: 40px;
+  width: 342px;
+  height: 40px;
   text-align: center;
   font-size: 14px;
   font-style: normal;
@@ -235,4 +236,3 @@ footer .text-footer {
   line-height: 20px;
   letter-spacing: 0em;
 }
-
