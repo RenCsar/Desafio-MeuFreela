@@ -43,7 +43,7 @@ header .social-media {
   margin-right: 24px;
 }
 
-.social-media img + img {
+.social-media a {
   margin-left: 18px;
 }
 
