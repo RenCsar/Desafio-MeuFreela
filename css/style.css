@@ -13,6 +13,7 @@
   --Background: #E5E5E5;
   --verde: #10AC84;
   --place-holder-color: #BBBBBB;
+  --preto: #333333;
 }
 
 body {
@@ -92,6 +93,7 @@ header .social-media {
 }
 
 .sobre-nos {
+  color: var(--preto);
   width: 100%;
   height: 894px;
   display: flex;
